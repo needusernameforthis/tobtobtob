@@ -1,0 +1,26 @@
+# Blocklist files/folders in same directory as the .gitignore file
+/*
+
+# Includelist some files
+!.gitignore
+!README.md
+
+# Ignore all files named .DS_Store or ending with .log -- these are just examples
+**/.DS_Store 
+**.log
+**.json
+
+# Includelist folder/a/b1/ and folder/a/b2/
+# trailing "/" is optional for folders, may match file though.
+# "/" is NOT optional when followed by a *
+# https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files
+!daniellepicsx/
+!DB-daniellepicsx.json
+!haerinfeed/
+!DB-haerinfeed.json
+!hannihourly/
+!DB-hannihourly.json
+!minjigallery/
+!DB-minjigallery.json
+!pictureshyein/
+!DB-pictureshyein.json
